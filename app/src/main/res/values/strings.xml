@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Letras</string>
+    <string name="Post1"> <h1>User3 </h1>\n
+        <h3><p> Rocamadour, bebé, mon bebé, Rocamadour. Ya sé que es como un espejo, estas ahí mirandote los pies, y yo aquí sostengo un espejo y creo que sos vos</p></h3> \n <h4> comentar          Me gusta</h4>
+    </string>
+    <string name="Post2"> <h1>User3 </h1>\n
+        <h3><p> Rocamadour, bebé, mon bebé, Rocamadour. Ya sé que es como un espejo, estas ahí mirandote los pies, y yo aquí sostengo un espejo y creo que sos vos</p></h3> \n <h4> comentar          Me gusta</h4>
+    </string>
+    <string name="Post3"> <h1>User3 </h1>\n
+        <h3><p> Rocamadour, bebé, mon bebé, Rocamadour. Ya sé que es como un espejo, estas ahí mirandote los pies, y yo aquí sostengo un espejo y creo que sos vos</p></h3> \n <h4> comentar          Me gusta</h4>
+    </string>
+    <string name="Post4"> <h1>User3 </h1>\n
+        <h3><p> Rocamadour, bebé, mon bebé, Rocamadour. Ya sé que es como un espejo, estas ahí mirandote los pies, y yo aquí sostengo un espejo y creo que sos vos</p></h3> \n <h4> comentar          Me gusta</h4>
+    </string>
+    <string name="Post5"> <h1>User3 </h1>\n
+        <h3><p> Rocamadour, bebé, mon bebé, Rocamadour. Ya sé que es como un espejo, estas ahí mirandote los pies, y yo aquí sostengo un espejo y creo que sos vos</p></h3> \n <h4> comentar          Me gusta</h4>
+    </string>
+    <string name="Post6"> <h1>User3 </h1>\n
+        <h3><p> Rocamadour, bebé, mon bebé, Rocamadour. Ya sé que es como un espejo, estas ahí mirandote los pies, y yo aquí sostengo un espejo y creo que sos vos</p></h3> \n <h4> comentar          Me gusta</h4>
+    </string>
+    <string name="Post7"> <h1>User3 </h1>\n
+        <h3><p> Rocamadour, bebé, mon bebé, Rocamadour. Ya sé que es como un espejo, estas ahí mirandote los pies, y yo aquí sostengo un espejo y creo que sos vos</p></h3> \n <h4> comentar          Me gusta</h4>
+    </string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Profile</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
