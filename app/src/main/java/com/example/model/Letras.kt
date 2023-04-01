@@ -1,4 +1,9 @@
 package com.example.model
 
-data class Letras (val stringResourceId: int) {
+import android.support.annotation.DrawableRes
+import android.support.annotation.StringRes
+
+data class Letras (
+    @StringRes val stringResourceId: Int,
+    @DrawableRes val imageResourceId: Int ) {
 }

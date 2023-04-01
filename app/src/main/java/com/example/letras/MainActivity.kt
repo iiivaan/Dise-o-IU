@@ -9,6 +9,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.adapter.ItemAdapter
+import com.example.data.Datasource
 import com.example.letras.databinding.ActivityMainBinding
 import javax.sql.DataSource
 
@@ -18,13 +19,12 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.fragment_home)
 
         val myDataset = Datasource().loadLetras()
 
         val recyclerView = findViewById<RecyclerView>(R.id.recicler_view)
         recyclerView.adapter = ItemAdapter(this, myDataset)
-
         recyclerView.setHasFixedSize(true)
 
         binding = ActivityMainBinding.inflate(layoutInflater)

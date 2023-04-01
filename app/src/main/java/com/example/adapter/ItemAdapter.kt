@@ -6,6 +6,7 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import com.example.letras.R
 import com.example.model.Letras
@@ -15,6 +16,7 @@ class ItemAdapter (private val context: Context, private val dataset: List<Letra
 
     class ItemViewHolder(private val view: View) : RecyclerView.ViewHolder(view){
         val textView: TextView = view.findViewById(R.id.item_title)
+        val imageView: ImageView = view.findViewById(R.id.item_image)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemViewHolder {
@@ -33,6 +35,7 @@ class ItemAdapter (private val context: Context, private val dataset: List<Letra
         /*remplaza los elementos de vista de la lista */
         val item = dataset[position]
         holder.textView.text = context.resources.getString(item.stringResourceId)
+        holder.imageView.setImageResource(item.imageResourceId)
         /*aqui puede haber un error por stringResourceId*/
     }
 

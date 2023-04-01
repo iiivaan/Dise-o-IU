@@ -22,6 +22,7 @@
         <h3><p> Rocamadour, bebé, mon bebé, Rocamadour. Ya sé que es como un espejo, estas ahí mirandote los pies, y yo aquí sostengo un espejo y creo que sos vos</p></h3> \n <h4> comentar          Me gusta</h4>
     </string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Profile</string>
+    <string name="title_profile">Profile</string>
     <string name="title_notifications">Notifications</string>
+    <string name="title_bottonFloating">BottonFloating</string>
 </resources>

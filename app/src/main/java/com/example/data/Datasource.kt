@@ -7,13 +7,13 @@ class Datasource {
 
     fun loadLetras(): List<Letras> {
         return listOf<Letras>(
-            Letras(R.string.Post1),
-            Letras(R.string.Post2),
-            Letras(R.string.Post3),
-            Letras(R.string.Post4),
-            Letras(R.string.Post5),
-            Letras(R.string.Post6),
-            Letras(R.string.Post7),
+            Letras(R.string.Post1, R.drawable.user1),
+            Letras(R.string.Post2, R.drawable.user1),
+            Letras(R.string.Post3, R.drawable.user1),
+            Letras(R.string.Post4, R.drawable.user1),
+            Letras(R.string.Post5, R.drawable.user1),
+            Letras(R.string.Post6, R.drawable.user1),
+            Letras(R.string.Post7, R.drawable.user1),
 
         )
 
